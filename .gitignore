@@ -1,0 +1,39 @@
+# Build artifacts
+build/
+*.obj
+*.pdb
+*.ilk
+*.suo
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# Logs
+mcr_log.txt
+proxy_log.txt
+proxy_stdout.txt
+proxy_stderr.txt
+
+# Scripts & Local Tools
+test_*.bat
+test_*.ps1
+
+# Local configuration (DO NOT COMMIT)
+mcr.ini
+mcr-run.bat
+
+# Release artifacts (for GitHub Releases only)
+MameCloudRom.zip
+release.md
+
+# Dynamic Libraries (Users should use setup.bat to fetch their local version)
+winfsp-x64.dll
+
+# System files
+Thumbs.db
+Desktop.ini
+.DS_Store
