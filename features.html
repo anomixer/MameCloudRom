@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MameCloudRom - Features</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h2>MCR</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" data-i18n="nav-home">Home</a></li>
+                    <li><a href="features.html" data-i18n="nav-features">Features</a></li>
+                    <li><a href="download.html" data-i18n="nav-download">Download</a></li>
+                    <li><a href="setup.html" data-i18n="nav-setup">Setup</a></li>
+                    <li><a href="docs.html" data-i18n="nav-docs">Documentation</a></li>
+                    <li><a href="developers.html" data-i18n="nav-developers">Developers</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn" data-i18n="nav-lang">Language</a>
+                        <div class="dropdown-content">
+                            <a href="#" onclick="changeLanguage('en')">English</a>
+                            <a href="#" onclick="changeLanguage('zh_TW')">繁體中文</a>
+                            <a href="#" onclick="changeLanguage('zh_CN')">简体中文</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="features-intro">
+            <div class="container">
+                <h1 data-i18n="feat-title">Key Features</h1>
+                <p data-i18n="feat-subtitle">Powerful capabilities for seamless MAME ROM management</p>
+            </div>
+        </section>
+
+        <section class="features-grid">
+            <div class="container">
+                <div class="feature-card">
+                    <h3 data-i18n="feat-1-title">On-Demand Download</h3>
+                    <p data-i18n="feat-1-desc">Files are only downloaded when accessed, saving local disk space.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3 data-i18n="feat-2-title">WinFsp Integration</h3>
+                    <p data-i18n="feat-2-desc">High-performance virtual disk driver with optimized Stateless mode.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3 data-i18n="feat-3-title">Stateless Stability</h3>
+                    <p data-i18n="feat-3-desc">Solved "Too many links" errors by enforcing stable metadata.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3 data-i18n="feat-4-title">Explorer Friendly</h3>
+                    <p data-i18n="feat-4-desc">Fully compatible with Windows File Explorer (8-byte alignment fix).</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3 data-i18n="feat-5-title">Scan Optimization</h3>
+                    <p data-i18n="feat-5-desc">MAME auditing doesn't trigger downloads, making launch near-instant.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3 data-i18n="feat-6-title">Extreme Stability</h3>
+                    <p data-i18n="feat-6-desc">Optimized handle protection logic ensuring 100% stability.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3 data-i18n="feat-7-title">Custom Path Prefixes</h3>
+                    <p data-i18n="feat-7-desc">Supports -zp and -7p prefixes to adapt to any server structure.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3 data-i18n="feat-8-title">Detailed Downloader</h3>
+                    <p data-i18n="feat-8-desc">Real-time progress bars via curl and file size display.</p>
+                </div>
+
+                <div class="feature-card">
+                    <h3 data-i18n="feat-9-title">Auto-Config</h3>
+                    <p data-i18n="feat-9-desc">Easy setup via setup.bat and configuration via config.bat.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p data-i18n="footer-text">MameCloudRom (MCR) v1.0 - Developed by anomixer + Antigravity</p>
+            <p data-i18n="footer-license">Distributed under MIT License</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

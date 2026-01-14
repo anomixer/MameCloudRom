@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MameCloudRom - Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h2>MCR</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" data-i18n="nav-home">Home</a></li>
+                    <li><a href="features.html" data-i18n="nav-features">Features</a></li>
+                    <li><a href="download.html" data-i18n="nav-download">Download</a></li>
+                    <li><a href="setup.html" data-i18n="nav-setup">Setup</a></li>
+                    <li><a href="docs.html" data-i18n="nav-docs">Documentation</a></li>
+                    <li><a href="developers.html" data-i18n="nav-developers">Developers</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn" data-i18n="nav-lang">Language</a>
+                        <div class="dropdown-content">
+                            <a href="#" onclick="changeLanguage('en')">English</a>
+                            <a href="#" onclick="changeLanguage('zh_TW')">繁體中文</a>
+                            <a href="#" onclick="changeLanguage('zh_CN')">简体中文</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="docs-intro">
+            <div class="container">
+                <h1 data-i18n="docs-title">Technical Documentation</h1>
+                <p data-i18n="docs-subtitle">Deep dive into the technical aspects of MameCloudRom (MCR)</p>
+            </div>
+        </section>
+
+        <section class="motivation">
+            <div class="container">
+                <h2 data-i18n="docs-motivation-title">Motivation</h2>
+                <p data-i18n="docs-motivation-p1"></p>
+                <p data-i18n="docs-motivation-p2"></p>
+                <p data-i18n="docs-motivation-p3"></p>
+            </div>
+        </section>
+
+        <section class="how-it-works">
+            <div class="container">
+                <h2 data-i18n="how-title">How MCR Works</h2>
+                <p data-i18n="how-subtitle">MameCloudRom acts as an intelligent intermediary. Here is the sequence of
+                    events:</p>
+
+                <div class="process-diagram">
+                    <div class="step">
+                        <span class="step-number">1</span>
+                        <h3 data-i18n="step-1-title">Interception</h3>
+                        <p data-i18n="step-1-desc"></p>
+                    </div>
+                    <div class="step">
+                        <span class="step-number">2</span>
+                        <h3 data-i18n="step-2-title">WinFsp Hand-off</h3>
+                        <p data-i18n="step-2-desc"></p>
+                    </div>
+                    <div class="step">
+                        <span class="step-number">3</span>
+                        <h3 data-i18n="step-3-title">Cache Check</h3>
+                        <p data-i18n="step-3-desc"></p>
+                    </div>
+                    <div class="step">
+                        <span class="step-number">4</span>
+                        <h3 data-i18n="step-4-title">On-the-Fly Download</h3>
+                        <p data-i18n="step-4-desc"></p>
+                    </div>
+                    <div class="step">
+                        <span class="step-number">5</span>
+                        <h3 data-i18n="step-5-title">Seamless Delivery</h3>
+                        <p data-i18n="step-5-desc"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="architecture">
+            <div class="container">
+                <h2 data-i18n="arch-title">System Architecture</h2>
+                <div class="arch-group core-group">
+                    <div class="component">
+                        <h3 data-i18n="comp-mame-title">MAME Emulator</h3>
+                        <p data-i18n="comp-mame-desc"></p>
+                    </div>
+                    <div class="component">
+                        <h3 data-i18n="comp-winfsp-title">WinFsp Layer</h3>
+                        <p data-i18n="comp-winfsp-desc"></p>
+                    </div>
+                    <div class="component">
+                        <h3 data-i18n="comp-mcr-title">MCR Application</h3>
+                        <p data-i18n="comp-mcr-desc"></p>
+                    </div>
+                </div>
+                <div class="arch-group data-group">
+                    <div class="component">
+                        <h3 data-i18n="comp-remote-title">Remote Source</h3>
+                        <p data-i18n="comp-remote-desc"></p>
+                    </div>
+                    <div class="component">
+                        <h3 data-i18n="comp-cache-title">Local Cache</h3>
+                        <p data-i18n="comp-cache-desc"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="supported-scope">
+            <div class="container">
+                <h2 data-i18n="scope-title">Supported Scope & Limitations</h2>
+                <div class="scope-grid">
+                    <div class="scope-section">
+                        <h3 data-i18n="supported-title">Supported</h3>
+                        <ul>
+                            <li data-i18n="scope-item-1"></li>
+                            <li data-i18n="scope-item-2"></li>
+                            <li data-i18n="scope-item-3"></li>
+                            <li data-i18n="scope-item-4"></li>
+                        </ul>
+                    </div>
+                    <div class="scope-section">
+                        <h3 data-i18n="unsupported-title">Unsupported</h3>
+                        <ul>
+                            <li data-i18n="scope-limit-1"></li>
+                            <li data-i18n="scope-limit-2"></li>
+                            <li data-i18n="scope-limit-3"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p data-i18n="footer-text">MameCloudRom (MCR) v1.0 - Developed by anomixer + Antigravity</p>
+            <p data-i18n="footer-license">Distributed under MIT License</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MameCloudRom - Developers</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h2>MCR</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" data-i18n="nav-home">Home</a></li>
+                    <li><a href="features.html" data-i18n="nav-features">Features</a></li>
+                    <li><a href="download.html" data-i18n="nav-download">Download</a></li>
+                    <li><a href="setup.html" data-i18n="nav-setup">Setup</a></li>
+                    <li><a href="docs.html" data-i18n="nav-docs">Documentation</a></li>
+                    <li><a href="developers.html" data-i18n="nav-developers">Developers</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn" data-i18n="nav-lang">Language</a>
+                        <div class="dropdown-content">
+                            <a href="#" onclick="changeLanguage('en')">English</a>
+                            <a href="#" onclick="changeLanguage('zh_TW')">繁體中文</a>
+                            <a href="#" onclick="changeLanguage('zh_CN')">简体中文</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="dev-intro">
+            <div class="container">
+                <h1 data-i18n="nav-developers">Developers</h1>
+                <p data-i18n="dev-subtitle">Build from source and contribute to the project</p>
+            </div>
+        </section>
+
+        <section class="build-instructions">
+            <div class="container">
+                <h2 data-i18n="dev-build-title">Build Instructions</h2>
+                <ol class="build-steps">
+                    <li>
+                        <h3 data-i18n="dev-step-1-title">WinFsp Developer Components</h3>
+                        <p data-i18n="dev-step-1-desc">Install WinFsp with "Core" and "Developer" components enabled.
+                        </p>
+                    </li>
+                    <li>
+                        <h3 data-i18n="dev-step-2-title">Visual Studio 2022</h3>
+                        <p data-i18n="dev-step-2-desc">Open the project folder; CMake will auto-configure.</p>
+                    </li>
+                    <li>
+                        <h3 data-i18n="dev-step-3-title">Release Config</h3>
+                        <p data-i18n="dev-step-3-desc">Select <code>Release</code> and "Build All".</p>
+                    </li>
+                    <li>
+                        <h3 data-i18n="dev-step-4-title">Build Script</h3>
+                        <p data-i18n="dev-step-4-desc">Alternatively, run <code>build.bat</code>.</p>
+                    </li>
+                </ol>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p data-i18n="footer-text">MameCloudRom (MCR) v1.0 - Developed by anomixer + Antigravity</p>
+            <p data-i18n="footer-license">Distributed under MIT License</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
