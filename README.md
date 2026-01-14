@@ -122,7 +122,7 @@ MameCloudRom acts as an intelligent intermediary. Here is the sequence of events
 
 ## Version History
 
-### v1.0 (2026-01-13) [Final Release]
+### v1.0 (2026-01-13)
 **Focus: Production Maturity & User Flexibility**
 
 *   **Extreme Stability**: Re-implemented v0.2 handle leasing for 100% stable File Explorer browsing.
