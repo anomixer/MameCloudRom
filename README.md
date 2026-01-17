@@ -6,6 +6,8 @@
 
 [繁體中文版](./README-TW.md) | [简体中文版](./README-CN.md)
 
+[Official Website](https://anomixer.github.io/MameCloudRom/index.html)
+
 > ⚠ **This project does NOT include or distribute ROMs. It is a client-side file system tool. All content sources, downloading activities, and their legality are determined solely by the user, who assumes full responsibility.**
 
 
@@ -16,8 +18,6 @@
 > 2. **Client-Side Tool**: MCR is a "utility pipe" that fetches data from user-provided endpoints. The developer does not provide or maintain any ROM libraries.
 > 3. **Open Source**: This code is provided under the MIT License as open-source software for technical research and legal use purposes.
 
-
-> **v1.0 (2026-01-13 Release)**
 
 MameCloudRom (MCR) is a Windows virtual file system (using WinFsp) designed for MAME ROM management. It implements a **Lazy Download** mechanism: when MAME requests a ROM that doesn't exist locally, MCR automatically downloads it from a configured remote server and serves it seamlessly.
 

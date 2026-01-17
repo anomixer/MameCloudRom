@@ -6,6 +6,8 @@
 
 [English Version](./README.md) | [简体中文版](./README-CN.md)
 
+[官方網站](https://anomixer.github.io/MameCloudRom/index.html)
+
 > ⚠ **本專案「不包含」亦「不分發」任何 ROM 檔案。這是一個客戶端檔案系統技術工具，所有內容來源、下載行為及其合法性均由使用者自行決定並承擔全部責任。**
 
 
@@ -16,8 +18,6 @@
 > 2. **客戶端工具**：MCR 僅作為一種「數據管道」技術工具，其功能是根據用戶提供的來源獲取數據。開發者不提供、亦不維護任何 ROM 資源庫。
 > 3. **開放原始碼**：本專案代碼基於 MIT 授權條款發佈，作為開源軟體供技術研究與合法用途使用。
 
-
-> **v1.0 (2026-01-13 Release)**
 
 MameCloudRom (MCR) 是一個基於 Windows WinFsp (Windows File System Proxy) 的虛擬檔案系統，專為 MAME ROM 管理設計。它實現了「延遲下載 (Lazy Download)」機制：當 MAME 請求一個本地不存在的 ROM 時，MCR 會自動從指定的遠端伺服器下載該檔案，並無縫提供給 MAME 使用。
 
