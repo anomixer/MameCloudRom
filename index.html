@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,15 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <nav class="navbar">
             <div class="nav-container">
                 <div class="logo">
-                    <h2>MCR</h2>
+                    <a href="index.html">
+                        <img src="mamecloudrom_logo_nobg-t.png" alt="MameCloudRom" class="logo-img">
+                    </a>
                 </div>
                 <ul class="nav-menu">
                     <li><a href="index.html" data-i18n="nav-home">Home</a></li>
@@ -39,18 +43,12 @@
             <div class="container">
                 <div class="hero-content">
                     <h1 data-i18n="hero-title">MameCloudRom</h1>
-                    <p class="subtitle" data-i18n="hero-subtitle">Virtual File System for MAME ROM Management</p>
-                    <div class="logo-art">
-                        <pre>
-   __  ___               _______             _____           
-  /  |/  /__ ___ _  ___ / ___/ /__  __ _____/ / _ \___  __ _ 
- / /|_/ / _ `/  ' \/ -_) /__/ / _ \/ // / _  / , _/ _ \/  ' \
-/_/  /_/\_,_/_/_/_/\__/\___/_/\___/\_,_/\_,_/_/|_|\___/_/_/_/
-                                                               
-                                                   by anomixer
-                        </pre>
+                    <div class="hero-logo-container">
+                        <img src="mamecloudrom_nobg-t.png" alt="MameCloudRom" class="hero-main-logo">
                     </div>
-                    <p class="tagline" data-i18n="hero-tagline">Solve the "ROM Version Hell" - Only download when you want to play</p>
+                    <p class="subtitle" data-i18n="hero-subtitle">Virtual File System for MAME ROM Management</p>
+                    <p class="tagline" data-i18n="hero-tagline">Solve the "ROM Version Hell" - Only download when you
+                        want to play</p>
                     <div class="cta-buttons">
                         <a href="setup.html" class="btn btn-primary" data-i18n="btn-quick-setup">Quick Setup</a>
                         <a href="features.html" class="btn btn-secondary" data-i18n="btn-learn-more">Learn More</a>
@@ -64,15 +62,21 @@
                 <div class="disclaimer-box">
                     <div class="important-notice">
                         <h3 data-i18n="disclaimer-title">⚠ Important Legal Notice</h3>
-                        <p data-i18n="disclaimer-text">This project does NOT include or distribute ROMs. It is a client-side file system tool.</p>
-                        
+                        <p data-i18n="disclaimer-text">This project does NOT include or distribute ROMs. It is a
+                            client-side file system tool.</p>
+
                         <h4 data-i18n="disclaimer-policy-title">LEGAL & DMCA POLICY</h4>
-                        <p data-i18n="disclaimer-policy-intro">This repository is a technical research project for virtual file system (VFS) implementation.</p>
+                        <p data-i18n="disclaimer-policy-intro">This repository is a technical research project for
+                            virtual file system (VFS) implementation.</p>
                         <ol>
-                            <li data-i18n="disclaimer-item-1"><strong>No Copyrighted Content</strong>: This repo does NOT host or distribute any game ROMs.</li>
-                            <li data-i18n="disclaimer-item-2"><strong>Client-Side Tool</strong>: MCR is a "utility pipe" that fetches data.</li>
-                            <li data-i18n="disclaimer-item-3"><strong>Open Source</strong>: This code is provided under the MIT License.</li>
-                            <li data-i18n="disclaimer-item-4"><strong>Official Releases</strong>: Download from GitHub.</li>
+                            <li data-i18n="disclaimer-item-1"><strong>No Copyrighted Content</strong>: This repo does
+                                NOT host or distribute any game ROMs.</li>
+                            <li data-i18n="disclaimer-item-2"><strong>Client-Side Tool</strong>: MCR is a "utility pipe"
+                                that fetches data.</li>
+                            <li data-i18n="disclaimer-item-3"><strong>Open Source</strong>: This code is provided under
+                                the MIT License.</li>
+                            <li data-i18n="disclaimer-item-4"><strong>Official Releases</strong>: Download from GitHub.
+                            </li>
                         </ol>
                     </div>
                 </div>
@@ -89,4 +93,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>

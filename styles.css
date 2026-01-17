@@ -41,14 +41,20 @@ body {
     align-items: center;
 }
 
-.logo h2 {
-    color: var(--accent-color);
-    font-size: 1.8rem;
-    font-weight: bold;
+.logo a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    height: 64px;
+    width: auto;
+    display: block;
     transition: transform 0.3s ease;
 }
 
-.logo h2:hover {
+.logo-img:hover {
     transform: scale(1.05);
 }
 
@@ -137,9 +143,9 @@ body {
 .hero {
     background: linear-gradient(135deg, #0d1b2a, #1e2a38, #2c3e50);
     color: white;
-    padding: 150px 0 100px;
+    padding: 80px 0 100px;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 40px;
     position: relative;
     overflow: hidden;
 }
@@ -162,31 +168,25 @@ body {
     animation: fadeInUp 1s ease;
 }
 
+.hero-logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    animation: fadeInUp 1s ease;
+}
+
+.hero-main-logo {
+    max-width: 600px;
+    width: 90%;
+    height: auto;
+    filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.5));
+}
+
 .subtitle {
     font-size: 1.8rem;
     margin-bottom: 2rem;
     opacity: 0.9;
     animation: fadeInUp 1s ease 0.2s both;
-}
-
-.logo-art {
-    display: flex;
-    justify-content: center;
-}
-
-.logo-art pre {
-    color: var(--accent-color);
-    font-size: 0.9rem;
-    margin: 2rem auto;
-    max-width: 800px;
-    background: rgba(0, 0, 0, 0.3);
-    padding: 1.5rem;
-    border-radius: 8px;
-    overflow-x: auto;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    animation: fadeInUp 1s ease 0.4s both;
-    white-space: pre;
-    text-align: left;
 }
 
 .tagline {
