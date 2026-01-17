@@ -1,4 +1,10 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/anomixer/MameCloudRom/website/mamecloudrom_nobg-t.png" width="400" alt="MameCloudRom Logo">
+</p>
+
 # MameCloudRom (MCR)
+
+[繁體中文版](./README-TW.md) | [简体中文版](./README-CN.md)
 
 > ⚠ **This project does NOT include or distribute ROMs. It is a client-side file system tool. All content sources, downloading activities, and their legality are determined solely by the user, who assumes full responsibility.**
 
@@ -10,17 +16,8 @@
 > 2. **Client-Side Tool**: MCR is a "utility pipe" that fetches data from user-provided endpoints. The developer does not provide or maintain any ROM libraries.
 > 3. **Open Source**: This code is provided under the MIT License as open-source software for technical research and legal use purposes.
 
-```
-   __  ___               _______             _____           
-  /  |/  /__ ___ _  ___ / ___/ /__  __ _____/ / _ \___  __ _ 
- / /|_/ / _ `/  ' \/ -_) /__/ / _ \/ // / _  / , _/ _ \/  ' \
-/_/  /_/\_,_/_/_/_/\__/\___/_/\___/\_,_/\_,_/_/|_|\___/_/_/_/
-                                                             
-                                                  by anomixer
-```
-> **v1.0 (2026-01-13 Release)**
 
-[繁體中文版](./README-TW.md) | [简体中文版](./README-CN.md)
+> **v1.0 (2026-01-13 Release)**
 
 MameCloudRom (MCR) is a Windows virtual file system (using WinFsp) designed for MAME ROM management. It implements a **Lazy Download** mechanism: when MAME requests a ROM that doesn't exist locally, MCR automatically downloads it from a configured remote server and serves it seamlessly.
 
@@ -148,7 +145,6 @@ MameCloudRom (MCR) is a technical proof-of-concept for the **WinFsp file system 
 *   **Copyright Compliance**: Users are responsible for ensuring they have the legal right to access any files they download.
 *   **Use at Your Own Risk**: The authors accept no liability for any legal issues or data loss. Distributed under the [MIT License](./LICENSE).
 
----
-Developer: anomixer + Antigravity (Gemini 3 Pro/Flash)  
+
 Repository: [GitHub - anomixer/MameCloudRom](https://github.com/anomixer/MameCloudRom)
 License: [MIT](./LICENSE)

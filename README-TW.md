@@ -1,4 +1,10 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/anomixer/MameCloudRom/website/mamecloudrom_nobg-t.png" width="400" alt="MameCloudRom Logo">
+</p>
+
 # MameCloudRom (MCR)
+
+[English Version](./README.md) | [简体中文版](./README-CN.md)
 
 > ⚠ **本專案「不包含」亦「不分發」任何 ROM 檔案。這是一個客戶端檔案系統技術工具，所有內容來源、下載行為及其合法性均由使用者自行決定並承擔全部責任。**
 
@@ -10,17 +16,8 @@
 > 2. **客戶端工具**：MCR 僅作為一種「數據管道」技術工具，其功能是根據用戶提供的來源獲取數據。開發者不提供、亦不維護任何 ROM 資源庫。
 > 3. **開放原始碼**：本專案代碼基於 MIT 授權條款發佈，作為開源軟體供技術研究與合法用途使用。
 
-```
-   __  ___               _______             _____           
-  /  |/  /__ ___ _  ___ / ___/ /__  __ _____/ / _ \___  __ _ 
- / /|_/ / _ `/  ' \/ -_) /__/ / _ \/ // / _  / , _/ _ \/  ' \
-/_/  /_/\_,_/_/_/_/\__/\___/_/\___/\_,_/\_,_/_/|_|\___/_/_/_/
-                                                              
-                                                  by anomixer
-```
-> **v1.0 (2026-01-13 Release)**
 
-[English Version](./README.md) | [简体中文版](./README-CN.md)
+> **v1.0 (2026-01-13 Release)**
 
 MameCloudRom (MCR) 是一個基於 Windows WinFsp (Windows File System Proxy) 的虛擬檔案系統，專為 MAME ROM 管理設計。它實現了「延遲下載 (Lazy Download)」機制：當 MAME 請求一個本地不存在的 ROM 時，MCR 會自動從指定的遠端伺服器下載該檔案，並無縫提供給 MAME 使用。
 
@@ -137,7 +134,6 @@ MameCloudRom (MCR) 是一個針對 **WinFsp 檔案系統代理架構** 的技術
 *   **版權合規**：使用者有責任確保自己擁有存取這些檔案的合法權利。
 *   **風險自負**：作者不對使用本軟體產生的任何法律糾紛、資料遺失承擔責任。本軟體按 [MIT 授權條款](./LICENSE) 分佈。
 
----
-開發者：anomixer + Antigravity (Gemini 3 Pro/Flash)  
+
 專案地址：[GitHub - anomixer/MameCloudRom](https://github.com/anomixer/MameCloudRom)  
 授權協議：[MIT](./LICENSE)
