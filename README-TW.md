@@ -106,6 +106,10 @@ MameCloudRom 運作的流程如下：
 - **src/**: 原始碼目錄 (C++)。
 - **build.bat**: 研發建置腳本。
 
+## 示範影片
+
+<video src="mcr-demo_h264NV.mp4" controls="controls" style="max-width: 100%;"></video>
+
 ## 支援範圍與限制
 
 *   **支援下載**：位於 `rompath` 下的遊戲 ROM (`.zip`, `.7z`) 以及各式設備、BIOS 檔案。
