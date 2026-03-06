@@ -109,10 +109,6 @@ MameCloudRom acts as an intelligent intermediary. Here is the sequence of events
 - **src/**: Source code directory (C++).
 - **build.bat**: Build script for developers (compiles and copies binaries).
 
-## Demo Video
-
-https://github.com/anomixer/MameCloudRom/raw/main/mcr-demo_h264NV.mp4
-
 ## Supported Scope & Limitations
 
 *   **Supported**: Game ROMs (`.zip`, `.7z`) and various device/BIOS files requested via `rompath`.
