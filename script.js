@@ -48,6 +48,7 @@ const translations = {
         "step-5-desc": "Once completed, MAME continues to load the game as if the file had always been there.",
 
         "arch-title": "System Architecture",
+        "docs-demo-video": "Demo Video",
         "comp-mame-title": "MAME Emulator",
         "comp-mame-desc": "Requests ROM files via virtual filesystem (default Z:\\).",
         "comp-winfsp-title": "WinFsp Layer",
@@ -176,6 +177,7 @@ const translations = {
         "step-5-desc": "下載完成後，MAME 隨即讀取到檔案並啟動遊戲。",
 
         "arch-title": "系統架構",
+        "docs-demo-video": "示範影片",
         "comp-mame-title": "MAME 模擬器",
         "comp-mame-desc": "透過虛擬檔案系統 (預設 Z:\\) 請求 ROM 檔案。",
         "comp-winfsp-title": "WinFsp 層",
@@ -304,6 +306,7 @@ const translations = {
         "step-5-desc": "下载完成后，MAME 随即读取到文件并启动游戏。",
 
         "arch-title": "系统架构",
+        "docs-demo-video": "示范视频",
         "comp-mame-title": "MAME 模拟器",
         "comp-mame-desc": "通过虚拟文件系统 (默认 Z:\\) 请求 ROM 文件。",
         "comp-winfsp-title": "WinFsp 层",
