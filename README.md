@@ -111,7 +111,7 @@ MameCloudRom acts as an intelligent intermediary. Here is the sequence of events
 
 ## Demo Video
 
-<video src="mcr-demo_h264NV.mp4" controls="controls" style="max-width: 100%;"></video>
+https://github.com/anomixer/MameCloudRom/raw/main/mcr-demo_h264NV.mp4
 
 ## Supported Scope & Limitations
 
